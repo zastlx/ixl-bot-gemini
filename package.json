@@ -1,0 +1,18 @@
+{
+  "name": "gemini",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.3.1",
+    "axios": "^1.6.8",
+    "dom-parser": "^1.1.5",
+    "dotenv": "^16.4.5",
+    "html-dom-parser": "^5.0.8"
+  }
+}
